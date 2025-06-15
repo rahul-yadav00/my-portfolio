@@ -24,9 +24,9 @@ export default function Home() {
           id="intro"
           className="min-h-screen flex flex-col items-center justify-center px-8 py-16"
         >
-          <h1 className="text-4xl font-bold mb-4">Hi, I'm Rahul 👋</h1>
+          <h1 className="text-4xl font-bold mb-4">Hi, I&apos;m Rahul 👋</h1>
           <p className="text-xl mb-6 text-center max-w-2xl">
-            I'm a software developer, former mechanical engineer, curious explorer,
+            I&apos;m a software developer, former mechanical engineer, curious explorer,
             and perfectionist at heart. I love learning, building, and pushing limits
             — from writing clean code to understanding how the universe works.
           </p>

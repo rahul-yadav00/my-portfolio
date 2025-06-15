@@ -4,7 +4,7 @@ export default function About() {
       <div className="max-w-3xl mx-auto">
         <h2 className="text-3xl font-semibold mb-4">About Me</h2>
         <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-          I'm a lifelong learner who thrives on curiosity. Whether it's fine-tuning systems, 
+          I'm a lifelong learner who thrives on curiosity. Whether it&apos;s fine-tuning systems, 
           understanding the smallest tech detail, or staying organized — I go deep into everything I do.
         </p>
         <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
