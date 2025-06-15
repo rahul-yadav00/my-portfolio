@@ -1,4 +1,3 @@
-// src/components/Skills.js
 export default function Skills() {
   const skills = [
     "JavaScript",
@@ -12,22 +11,24 @@ export default function Skills() {
     "CSS3",
     "Git & GitHub",
     "REST APIs",
-    "Jira / Trello",
     "Postman",
-    "Creativity",
-    "Team Collaboration",
-    "Problem Solving"
+    "AJAX",
+    "jQuery"
   ];
 
   return (
-    <section className="py-16 px-6 bg-gray-50 dark:bg-gray-900" id="skills">
-      <div className="max-w-5xl mx-auto text-center">
-        <h2 className="text-3xl font-bold mb-6 text-gray-800 dark:text-gray-100">Skills</h2>
-        <div className="flex flex-wrap justify-center gap-4">
-          {skills.map((skill, index) => (
+    <section className="py-16 bg-gray-50 dark:bg-gray-900 w-full" id="skills">
+      <h2 className="text-3xl font-bold mb-8 text-center text-gray-800 dark:text-gray-100">
+        Skills
+      </h2>
+
+      {/* Full-width horizontal scroll container */}
+      <div className="overflow-hidden w-full">
+        <div className="flex whitespace-nowrap animate-scroll gap-4 px-4">
+          {[...skills, ...skills].map((skill, index) => (
             <span
               key={index}
-              className="px-4 py-2 bg-white dark:bg-gray-800 text-gray-800 dark:text-white border border-gray-300 dark:border-gray-700 rounded-full text-sm shadow hover:scale-105"
+              className="px-4 py-2 bg-white dark:bg-gray-800 text-gray-800 dark:text-white border border-gray-300 dark:border-gray-700 rounded-full text-sm shadow"
             >
               {skill}
             </span>
