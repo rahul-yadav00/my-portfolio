@@ -30,7 +30,7 @@ export default function Contact() {
       <div className="max-w-3xl mx-auto text-center">
         <h2 className="text-5xl font-semibold mb-4">Say Hello</h2>
         <p className="text-lg mb-10">
-          Let’s connect — whether it's a project, opportunity, or just to chat.
+          Let&apos;s connect — whether it&apos;s a project, opportunity, or just to chat.
         </p>
 
         <div className="flex justify-center items-center gap-10">
