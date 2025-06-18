@@ -3,6 +3,7 @@ import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 //import Timeline from "@/components/Timeline";
 
 export default function Home() {
@@ -24,17 +25,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/60"></div>
       </div>
 
-      {/* 🔝 Navbar with transparent background */}
-      <header className="sticky top-0 z-50 w-full py-6 px-8 bg-transparent text-white flex justify-between items-center">
-        <h1 className="text-xl font-bold">Rahul Yadav</h1>
-        <nav className="space-x-4">
-          <a href="#about" className="hover:underline">About</a>
-          <a href="#skills" className="hover:underline">Skills</a>
-          <a href="#projects" className="hover:underline">Projects</a>
-          {/*<a href="#timeline" className="hover:underline">Timeline</a>*/}
-          <a href="#contact" className="hover:underline">Contact</a>
-        </nav>
-      </header>
+      <Header />
 
       {/* 💡 Main Content */}
       <main className="flex flex-col items-center justify-center text-white text-center">

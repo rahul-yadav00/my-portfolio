@@ -22,7 +22,7 @@ export default function Projects() {
             <div className="mt-auto">
               <div className="flex flex-wrap gap-2 text-sm mb-4 justify-center">
                 {["Node JS", "JavaScript", "REST API", "MongoDB", "SQL", "HTML", "CSS", "AJAX", "jQuery"].map((tech) => (
-                  <span key={tech} className="bg-blue-100 dark:bg-blue-800 text-blue-800 dark:text-blue-100 px-2 py-1 rounded">
+                  <span key={tech} className="bg-blue-200/70 dark:bg-blue-900/60 text-blue-900 dark:text-blue-200 px-2 py-1 rounded-md shadow-sm">
                     {tech}
                   </span>
                 ))}
@@ -52,7 +52,7 @@ export default function Projects() {
             <div className="mt-auto">
               <div className="flex flex-wrap gap-2 text-sm mb-4 justify-center">
                 {["React", "Node JS", "Express JS", "MongoDB"].map((tech) => (
-                  <span key={tech} className="bg-blue-100 dark:bg-blue-800 text-blue-800 dark:text-blue-100 px-2 py-1 rounded">
+                  <span key={tech} className="bg-blue-200/70 dark:bg-blue-900/60 text-blue-900 dark:text-blue-200 px-2 py-1 rounded-md shadow-sm">
                     {tech}
                   </span>
                 ))}
@@ -82,7 +82,7 @@ export default function Projects() {
             <div className="mt-auto">
               <div className="flex flex-wrap gap-2 text-sm mb-4 justify-center">
                 {["React", "Node JS", "HTML", "CSS", "JavaScript"].map((tech) => (
-                  <span key={tech} className="bg-blue-100 dark:bg-blue-800 text-blue-800 dark:text-blue-100 px-2 py-1 rounded">
+                  <span key={tech} className="bg-blue-200/70 dark:bg-blue-900/60 text-blue-900 dark:text-blue-200 px-2 py-1 rounded-md shadow-sm">
                     {tech}
                   </span>
                 ))}
